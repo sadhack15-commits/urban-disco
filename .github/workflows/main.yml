@@ -24,3 +24,7 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/mc-guard-bot:latest
+
+      - name: Trigger Render Deploy
+        run: |
+          curl -X POST "https://api.render.com/deploy/srv-d8cgeun40ujc738rac70?key=IdzrkJmsCZc"
