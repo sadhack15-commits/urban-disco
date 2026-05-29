@@ -1,0 +1,10 @@
+{
+  "name": "minecraft-guard-bot",
+  "version": "3.0.0",
+  "description": "Bot Minecraft 26.1.2 tự viết protocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
